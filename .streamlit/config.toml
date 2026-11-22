@@ -1,0 +1,41 @@
+# Theme for the fraud-review console (app/Home.py). Run Streamlit from C:\BKU\DM so this file is picked up.
+# Colours follow the validated dataviz reference palette: accent = categorical slot 1,
+# warm-neutral page planes and hairlines, separate light and dark steps.
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+font = "IBM Plex Sans:https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap, Segoe UI, system-ui, sans-serif"
+headingFont = "IBM Plex Sans:https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap, Segoe UI, system-ui, sans-serif"
+codeFont = "IBM Plex Mono:https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap, Consolas, monospace"
+baseFontSize = 15
+baseRadius = "6px"
+buttonRadius = "6px"
+showSidebarBorder = true
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#2a78d6"
+backgroundColor = "#f3f2ee"
+secondaryBackgroundColor = "#f0efec"
+textColor = "#0b0b0b"
+borderColor = "#e1e0d9"
+linkColor = "#1c5cab"
+
+[theme.light.sidebar]
+backgroundColor = "#f0efec"
+
+[theme.dark]
+primaryColor = "#3987e5"
+backgroundColor = "#0d0d0d"
+secondaryBackgroundColor = "#1a1a19"
+textColor = "#f0efec"
+borderColor = "#2c2c2a"
+linkColor = "#6da7ec"
+
+[theme.dark.sidebar]
+backgroundColor = "#141413"
